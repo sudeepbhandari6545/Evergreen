@@ -1,0 +1,21 @@
+.footer {
+  background-color: #272929;
+  height: 35vh;
+  color: white;
+}
+.footer-text {
+  padding-right: 200px;
+  padding-top: 50px;
+}
+.highlite {
+  border-bottom: 2px dotted wheat;
+}
+.highlite:hover {
+  border-bottom: 2px solid white;
+}
+.footer-logo {
+  width: 180px;
+  position: relative;
+  left: 100px;
+  top: 50px;
+}

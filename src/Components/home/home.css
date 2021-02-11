@@ -1,0 +1,17 @@
+.home-background {
+  background-color: white;
+}
+.home-img {
+  width: 500px;
+
+  align-items: center;
+  border: none;
+}
+.home-details {
+  box-sizing: border-box;
+  padding-top: 100px;
+}
+.home-git-button {
+  margin-left: 10px;
+  border: 2px solid lightblue;
+}

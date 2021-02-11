@@ -1,0 +1,12 @@
+.mycard {
+  outline: rgba(0, o, 0, 0.5);
+  border-radius: 5px;
+}
+.media-click {
+  color: #1f2020;
+}
+.media-click:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #34d4d4;
+}
