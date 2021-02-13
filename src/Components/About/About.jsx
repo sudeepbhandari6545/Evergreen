@@ -11,7 +11,7 @@ const About = () => {
         <Container>
           <Row>
             <Col md={4}>
-              <Row>
+              <Row className="mt-5">
                 <h5 className="text-capitalize text-white p-4 mt-4 mb-2">
                   Works out of the box
                 </h5>
@@ -22,7 +22,7 @@ const About = () => {
               </Row>
             </Col>
             <Col md={4}>
-              <Row>
+              <Row className="mt-5">
                 <h5 className="text-capitalize text-white p-4 mt-4 mb-2">
                   Flexible & composable
                 </h5>
@@ -33,7 +33,7 @@ const About = () => {
               </Row>
             </Col>
             <Col md={4}>
-              <Row>
+              <Row className="mt-5">
                 <h5 className="text-capitalize text-white p-4 mt-4 mb-2">
                   Enterprise-grade
                 </h5>
@@ -46,6 +46,7 @@ const About = () => {
           </Row>
         </Container>
       </div>
+      {/* <div style={{ height: '32vh', background: 'red' }} /> */}
     </>
   );
 };

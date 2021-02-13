@@ -6,6 +6,8 @@ import Button from 'react-bootstrap/Button';
 import Image from 'react-bootstrap/Image';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import './home.css';
+import Media from '../media/Media';
+import About from '../About/About';
 
 const Home = () => {
   return (
@@ -54,6 +56,8 @@ const Home = () => {
           </Row>
         </Container>
       </div>
+      <About />
+      <Media />
     </>
   );
 };

@@ -6,14 +6,15 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import MessageIcon from '@material-ui/icons/Message';
 
 import './Navbar.css';
+import { Link, NavLink } from 'react-router-dom';
 
 const Mynavbar = () => {
   return (
     <>
-      <Navbar className="my-navbar" expand="lg">
+      <Navbar className="my-navbar fixed-top" expand="lg">
         <Navbar.Brand href="#home">
           {/* ******my logo******** */}
-          <a href="#Home">
+          <Link to="/">
             <img
               className="nav-logo"
               src={process.env.PUBLIC_URL + '/image/logo/logo.jpg'}
@@ -22,23 +23,23 @@ const Mynavbar = () => {
             <span className="font-weight-bold text-success m-2">
               Ever-Green
             </span>
-          </a>
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-5">
-            <Nav.Link className="menu-item text-dark" href="#home">
+            <NavLink exact className="menu-item text-dark" to="/getstarted">
               Get Started
-            </Nav.Link>
-            <Nav.Link className="menu-item text-dark" href="#aboutme">
+            </NavLink>
+            <NavLink exact className="menu-item text-dark" to="/about">
               Components
-            </Nav.Link>
-            <Nav.Link className="menu-item text-dark" href="#skill">
+            </NavLink>
+            <NavLink exact className="menu-item text-dark" to="/skill">
               for designer
-            </Nav.Link>
-            <Nav.Link className="menu-item text-dark" href="#Exprence">
+            </NavLink>
+            <NavLink exact className="menu-item text-dark" to="/exprence">
               what's new
-            </Nav.Link>
+            </NavLink>
           </Nav>
         </Navbar.Collapse>
         <Button

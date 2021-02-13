@@ -9,7 +9,7 @@ import './media.css';
 
 const Media = () => {
   return (
-    <div>
+    <div className="media__height">
       <Container>
         <div className="justify-content-center align-items-center text-center">
           <VolumeUpIcon fontSize="large" />

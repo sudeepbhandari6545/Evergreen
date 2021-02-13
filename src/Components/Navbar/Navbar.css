@@ -18,10 +18,12 @@
 }
 .menu-item {
   text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px;
   font-size: 13px;
-  outline: none;
-  margin: 7px;
 }
 .menu-item:hover {
   background-color: #f5f1ea;
+  text-decoration: none;
+  outline: none;
 }
