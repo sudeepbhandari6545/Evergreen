@@ -1,8 +1,14 @@
 .introduction {
   padding-top: 100px;
+  padding-bottom: 50px;
 }
 .textarea {
   width: 70%;
-  background-color: darkgray;
+  background-color: #34495e;
   height: 100px;
+}
+.introduction-text {
+  text-align: justify;
+  padding-left: 100px;
+  padding-right: 80px;
 }

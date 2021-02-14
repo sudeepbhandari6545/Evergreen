@@ -9,6 +9,7 @@ import Introduction from './Components/sidebar/Introduction/Introduction';
 import { Switch, Route, Link, Redirect } from 'react-router-dom';
 import Migrating from './Components/sidebar/migrating/Migrating';
 import Theming from './Components/sidebar/theming/Theming';
+import Component from './Components/pages/Component';
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
         <Redirect to="/" />
       </Switch>
       <Footer />
+      <Component />
 
       {/* <Mynavbar />
       <Home />

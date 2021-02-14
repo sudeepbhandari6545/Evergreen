@@ -12,9 +12,9 @@ const Introduction = () => {
       <div className="introduction">
         <Row>
           <Col>
-            <div className="pl-5 m-1 text-justify">
+            <div className="pl-5 m-1 introduction-text ">
               <h4 className="text-capitalize font-weight-bold">introduction</h4>
-              <p className="">
+              <p>
                 Evergreen is a pragmatic UI kit for building evolving products
                 on the web. It is built and maintained open-source by Segment.
               </p>
@@ -31,11 +31,12 @@ const Introduction = () => {
                 should work out of the box with smart defaults and offer full
                 control when needed. For example, Evergreen implements most
                 components on top of a Box primitive which allows for a lot of
-                customization. Evergreen is built on the belief that using
-                Evergreen and contributing to Evergreen should be a pleasant
-                experience. We prioritize documentation and all the tools for a
-                solid developer experience. We advocate respect and inclusivity
-                in our writings and interactions.
+                customization.
+                <br /> Evergreen is built on the belief that using Evergreen and
+                contributing to Evergreen should be a pleasant experience. We
+                prioritize documentation and all the tools for a solid developer
+                experience. We advocate respect and inclusivity in our writings
+                and interactions.
               </p>
               <br />
               <h4 className="text-capitalize font-weight-bold">
@@ -60,9 +61,13 @@ const Introduction = () => {
               <textarea
                 type="text"
                 className="textarea"
-                placeholder="$ yarn add evergreen-ui
-                            # or
-                      $ npm install --save evergreen-ui"
+                placeholder="import React from 'react'
+import ReactDOM from 'react-dom'
+import { Button } from 'evergreen-ui'
+ReactDOM.render(
+  <Button>I am using 🌲 Evergreen!</Button>,
+  document.getElementById('root')
+)"
               ></textarea>
             </div>
           </Col>

@@ -6,21 +6,27 @@ import { Link, NavLink } from 'react-router-dom';
 const Inputlist = () => {
   return (
     <div className="input-list-item">
-      <Nav className="flex-column fixed-left">
+      <Nav className="flex-column">
         {/* <Switch>
           <Route exact path="/" component={Home} />
         </Switch> */}
 
         <Link
-          className="text-dark text-capitalize"
+          className="input-list text-dark text-capitalize mt-2"
           to="/getstarted/introduction"
         >
           Introduction
         </Link>
-        <Link className="text-dark text-capitalize" to="/getstarted/migrating">
+        <Link
+          className="input-list text-dark text-capitalize mt-2"
+          to="/getstarted/theming"
+        >
           Theming
         </Link>
-        <Link className="text-dark text-capitalize" to="/getstarted/theming">
+        <Link
+          className="input-list text-dark text-capitalize mt-2"
+          to="/getstarted/migrating"
+        >
           Migrating to v5
         </Link>
       </Nav>

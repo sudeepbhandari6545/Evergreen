@@ -1,11 +1,15 @@
 .input-list-item {
   padding-top: 100px;
-  font-weight: bold;
-  font-size: 20px;
-  color: black;
+  padding-left: 15px;
   text-decoration: none;
-  width: 250px;
-  background-color: wheat;
-  height: 96vh;
+  width: 200px;
+  background-color: #f4f6f6;
+  height: 97vh;
   float: left;
+}
+.input-list:hover {
+  background-color: #fffdfd;
+  text-decoration: none;
+  width: 150px;
+  height: auto;
 }
