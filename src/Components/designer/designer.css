@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+.designer-pra {
+  white-space: pre-line;
+  padding: 5px;
+}
+.designer-heading {
+  margin-top: 100px;
+}
+.heading-btn {
+  border: 1px solid lightgray;
+  background-color: lightgray;
+}
+.designer-img {
+  margin-top: 100px;
+}
+.d-img {
+  border: none;
+  padding: 10px;
+}
+.designer-blog {
+  margin-top: 100px;
+  background-color: lightgray;
+  height: 80vh;
+}
+.d-card-image {
+  height: 150px;
+}
+.designer-card {
+  border: 2px solid lightgray;
+  outline-offset: none;
+}

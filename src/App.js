@@ -10,6 +10,8 @@ import { Switch, Route, Link, Redirect } from 'react-router-dom';
 import Migrating from './Components/sidebar/migrating/Migrating';
 import Theming from './Components/sidebar/theming/Theming';
 import Component from './Components/pages/Component';
+import Designer from './Components/designer/Designer';
+import New from './Components/new/New';
 
 const App = () => {
   return (
@@ -18,7 +20,9 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={Home} />
 
-        <Route exact path="/about" component={About} />
+        <Route exact path="/component" component={Component} />
+        <Route exact path="/designer" component={Designer} />
+        <Route exact path="/new" component={New} />
 
         <Route exact path="/getstarted" component={Getstarted} />
         <Route exact path="/getstarted/introduction" component={Introduction} />
@@ -27,7 +31,6 @@ const App = () => {
         <Redirect to="/" />
       </Switch>
       <Footer />
-      <Component />
 
       {/* <Mynavbar />
       <Home />

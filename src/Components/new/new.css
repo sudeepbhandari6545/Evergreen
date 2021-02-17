@@ -1,0 +1,16 @@
+.main-heading {
+  background-color: lightgray;
+  height: 50vh;
+}
+.heading {
+  margin-left: 50px;
+  margin-top: 80px;
+  padding-top: 100px;
+  padding-left: 150px;
+}
+.second-div {
+  height: 90vh;
+}
+.second-heading {
+  padding-left: 200px;
+}

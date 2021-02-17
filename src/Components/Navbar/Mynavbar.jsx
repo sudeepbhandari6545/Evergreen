@@ -31,13 +31,13 @@ const Mynavbar = () => {
             <NavLink exact className="menu-item text-dark" to="/getstarted">
               Get Started
             </NavLink>
-            <NavLink exact className="menu-item text-dark" to="/about">
+            <NavLink exact className="menu-item text-dark" to="/component">
               Components
             </NavLink>
-            <NavLink exact className="menu-item text-dark" to="/skill">
+            <NavLink exact className="menu-item text-dark" to="/designer">
               for designer
             </NavLink>
-            <NavLink exact className="menu-item text-dark" to="/exprence">
+            <NavLink exact className="menu-item text-dark" to="/new">
               what's new
             </NavLink>
           </Nav>
