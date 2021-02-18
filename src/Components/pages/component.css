@@ -1,7 +1,6 @@
 .component-main-div {
   background-color: white;
-  height: 80vh;
-  position: relative;
+  height: 200vh;
 }
 .component-search {
   width: 75%;
@@ -23,7 +22,6 @@
   left: 30px;
 }
 .component-detail {
-  position: relative;
-  left: 150px;
-  top: 50px;
+  padding-top: 50px;
+  padding-left: 150px;
 }
